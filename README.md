@@ -2,7 +2,7 @@
 
 # Season 1 
 - const
-- -var
+- var
 
 1. What is JavaScript?
 
