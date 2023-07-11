@@ -1,6 +1,8 @@
 # JavaScript-Course
 
 # Season 1 
+- const
+- -var
 
 1. What is JavaScript?
 
