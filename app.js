@@ -1,3 +1,13 @@
-const firstName = "sa";
-let firstName2 = "sa";
+let firstName = "yas";
+
+const firstName2 = "sa";
+
 console.log(firstName);
+
+
+
+
+
+
+
+
