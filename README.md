@@ -8,6 +8,8 @@
 
 - High-level, OO and Multi-Paradigm Programming Language(Functional or Class Programming).
 
+- JS usage: 1-in front: React, Angular 2.back: node js 3.Desktop: electron 4.Mobile: React Native
+
 2. JS role in web app?
 
 - HTML is the structure and CSS is the presentation and js makes it usable and dynamic and intercation with the user.
