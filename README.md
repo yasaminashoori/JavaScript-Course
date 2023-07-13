@@ -22,7 +22,7 @@ Before it runs only in browsers (Front-end).
 
 - By JS Engine: FireFox (SpiderMonkey), Chrome (V8).
 
-- Server-Side: Embed v8 engine inside c++ program => Node!
+- Server-Side: Embed v8 engine inside c++ program => NodeJS
 
 - Run JS code outside browser.
 
