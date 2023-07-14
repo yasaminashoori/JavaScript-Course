@@ -8,11 +8,11 @@
 
 - High-level, OO and Multi-Paradigm Programming Language(Functional or Class Programming).
 
-- JS usage: 1-in front: React, Angular 2.back: node js 3.Desktop: electron 4.Mobile: React Native
+- JS usage: 1-in Front: React, Angular 2. back: node js 3.Desktop: electron 4. Mobile: React Native
 
 2. JS role in web app?
 
-- HTML is the structure and CSS is the presentation and js makes it usable and dynamic and intercation with the user.
+- HTML is the structure and CSS is the presentation and js makes it usable and dynamic and interaction with the user.
 
 - HTML (structural) noun, CSS (Presentational) adjective, JavaScript (Behavioral) verb.
 
@@ -20,17 +20,17 @@
 
 Before it runs only in browsers (Front-end).
 
-- By JS Engine: FireFox (SpiderMonkey), Chrome (V8).
+- By JS Engine: Firefox (SpiderMonkey), Chrome (V8).
 
 - Server-Side: Embed v8 engine inside c++ program => NodeJS
 
-- Run JS code outside browser.
+- Run JS code outside the browser.
 
 - Back-end of App.
 
 3. What is ECMAScript?
 
-- Releases of JS and Updatded versions.
+- Releases of JS and Updated versions.
 
 - Annual release of JS from 1997 to 2015 (ES6 is the latest version).
 
@@ -38,41 +38,41 @@ Before it runs only in browsers (Front-end).
 
 - NodeJs used for 3rd party package.
 
-- We should send the JS to the brosers so they can run the codes.
+- We should send the JS to the browsers so they can run the codes.
  
-- There are two ways for adding JS to the project: 1.inside the HTML file with script tag, run in the console tab of browser.  2. add js app and   run with node .
+- There are two ways for adding JS to the project: 1. inside the HTML file with a script tag, run in the console tab of the browser.  2. add the js app and   run with node.
 
-- The problem with the first way: we have a concept in programming named "Separation of concerns" it means put everything in the right place at the first place we know that the program will be bigger so the styles, html and logic (HTML) seperately. 
+- The problem with the first way: we have a concept in programming named "Separation of concerns" It means putting everything in the right place in the first place we know that the program will be more significant so the styles, HTML and logic (HTML) are separate. 
 
-- So this is the right way: add the link of JS file in the index file <script src="./app.js">
+- So this is the right way: add the link of the JS file in the index file <script src="./app.js">
 
-- We stores temporarily the data in variables. label of box will be the name and what we put inside box is value.
+- We store temporarily the data in variables. label of box will be the name and what we put inside box is value.
 
-- The names should be meaningful, and use them in everywhere of our program. we described them with these three key words: var, Const, Let.
+- The names should be meaningful, and use them in everywhere our program. we described them with these three keywords: var, Const, and Let.
 
 - Don't use var! it is outdated.
 
-- The names of var is camelCase and react PascalCase.
+- The names of var are camelCase and react PascalCase.
 
-- Data types: 1.Primitive types (value type includes: Boolean, Null, Undefined, Number, String, Symbol) 2.Object type (reference type includes: Array, Object, Function, Date, Regex).
+- Data types: 1. Primitive types (value type includes: Boolean, Null, Undefined, Number, String, Symbol) 2.Object type (reference type includes: Array, Object, Function, Date, Regex).
 
-- JS is Dynamic type and don't have to manually define them and determind automatically.
+- JS is a Dynamic type and doesn't have to manually define them and determined them automatically.
 
 - Const vs Let: Const values can't be changed. and use const as much as possible. with let we can have undefined vars but in const we can't.
 
 - The most of types that we have in js are object means object type.
 
--  Object means the related data that gathered together and we can't store them in class.
+-  Object means the related data that is gathered together and we can't store them in class.
 
 - The objects are a collection of key: value. 
 
-- NOTE: we can change the values that declared with const in object type cause we didn't change the reference itself but we changed the property of object or index of array. ( but give error if you write a new object with the same name user and want to decalre it)
+- NOTE: we can change the values that are declared with const in object type cause we didn't change the reference itself but we changed the property of the object or index of the array. ( but give an error if you write a new object with the same name user and want to declare it)
 
 - Dynamic objects with bracket notation.
 
-- List data: Arrays, the order of values have matter. the adderess of each one called indx. array type: object.
+- List data: Arrays, the order of values have mattered. the address of each one is called the index. array type: object.
 
-- Array size isn't fixed and they're dynamic to add index.
+- Array size isn't fixed and they're dynamic to add an index.
 
 
 
