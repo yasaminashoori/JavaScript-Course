@@ -74,6 +74,27 @@ Before it runs only in browsers (Front-end).
 
 - Array size isn't fixed and they're dynamic to add index.
 
+- Operators exist in maths too. first kind of them are Arithmetic operators: 1.+ 2.- 3.* 4./
+
+- console.log("4" + 3); concat and both types are string in + both converts to string.
+
+- we called a number inside a string: Numeric String like "4".
+
+- In -,/,* the numeric string converts to number and boolean to number (null=0, true=1, false=0).
+
+- NAN: is an error that says not a number, it means we can't do substraction of a "4" with "yas" and also  We can't MUltiply a number in a string: "4" * "yas".
+
+- and "4" and "3" we can do the opeartions and they convert to number.
+
+- We can seperate the long numbers with _ sign. like: 300_000.
+
+- The result of Comparisons are boolean.
+
+- Equality: 1.Strict (type, value) ===  2.Loose (value) == 
+
+- Not Equality: !== (type, value), != (value).
+
+
 
 
 
