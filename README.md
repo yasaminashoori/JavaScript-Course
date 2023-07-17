@@ -64,7 +64,7 @@ Before it runs only in browsers (Front-end).
 
 -  Object means the related data that gathered together and we can't store them in class.
 
-- The objects are a collection of key: values. 
+- The objects are collections of key: values. 
 
 - NOTE: we can change the values that declared with const in object type cause we didn't change the reference it self but we changed the property of object or index of array. ( but give error if you write a new object with the same name user and want to decalre it)
 
