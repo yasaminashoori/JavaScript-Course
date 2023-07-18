@@ -82,7 +82,7 @@ Before it runs only in browsers (Front-end).
 
 - In -,/,* the numeric string converts to number and boolean to number (null=0, true=1, false=0).
 
-- NAN: is an error that says not a number, it means we can't do substraction of a "4" with "yas" and also  We can't MUltiply a number in a string: "4" * "yas".
+- NAN: is an error that says not a number, it means we can't do substraction of a "4" with "yas" and also We can't MUltiply a number in a string: "4" * "yas".
 
 - and "4" and "3" we can do the opeartions and they convert to number.
 
@@ -92,10 +92,27 @@ Before it runs only in browsers (Front-end).
 
 - Equality: 1.Strict (type, value) ===  2.Loose (value) == 
 
+- NOTE: use from strict type as much as you can cause it is more secure.
+
 - Not Equality: !== (type, value), != (value).
 
-- eorp
+- Ternary: Condition ? "AAA" : "BBB". 
 
+- Ternary: kind of if condition, not only strings but functions or results can be used.
+
+- Logical operators-boolean : and &&, || or, ?? (null coalesing), !(not).
+
+- OR: do the process until reach to the first truthy, if none of them were truthy it will return the last expression.
+
+- AND: do the proceess until reach the first falsy, if all of them are truthy returns the last expression.
+
+- Logical operators-non-boolean : there is a concept called truthy and falsy. 
+
+- falsy: 0, "", null, undefined, NAN. and the result of &&, || shouldn't be always boolean.
+
+- Truthy: except above options.
+
+- ?? used for converting 0 and "" to truthy values.
 
 
 
