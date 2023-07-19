@@ -114,6 +114,11 @@ Before it runs only in browsers (Front-end).
 
 - ?? used for converting 0 and "" to truthy values.
 
+- Control flow: if-else/ switch-case/ for/ while.
+
+- if use from BREAK it will check the other conditions too.
+
+- used in another place. for in: for objects when wnat to find key values. and for if for idexes of array.
 
 
 
