@@ -123,6 +123,16 @@ Before it runs only in browsers (Front-end).
 
 - for of and for in:  they used in another place. for in: for objects when wnat to find key values. and for if for idexes of array.
 
+- break: the process will stup and loop will be end.
+
+- continue: if a specific condition was true it returns to first of the loop and run the loop again and didn't run the other lines of loop. use it in special scenarios.
+
+- function: Power ( ** ), every func gives parameters in ().
+
+- question: we alays nedd to show a log to user ir want to access the result of processing
+
+- return: aeverything after return will ognored. and the result stores in the func.
+
 
 
 
