@@ -133,6 +133,7 @@ Before it runs only in browsers (Front-end).
 
 - return: aeverything after return will ognored. and the result stores in the func.
 
+we have multy return but one of the runs the first one
 
 
 
