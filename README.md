@@ -135,6 +135,10 @@ Before it runs only in browsers (Front-end).
 
 we have multy return but one of the runs the first one
 
+- this refers to an object that operates the method.
+
+- Constuctor - factory function
+
 
 
 
