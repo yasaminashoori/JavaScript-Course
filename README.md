@@ -142,6 +142,11 @@ we have multy return but one of the runs the first one
 
 - Constuctor - factory function
 
+# Season 9 
+
+77.for convert number to strings:   ```console.log(Number("34");```
+
+
 
 
 
