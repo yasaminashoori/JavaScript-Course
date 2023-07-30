@@ -39,13 +39,15 @@ Before it runs only in browsers (Front-end).
 
 - NodeJs used for 3rd party package.
 
-- We should send the JS to the brosers so they can run the codes.
+- We should send the JS to the browsers so they can run the codes.
  
-- There are two ways for adding JS to the project: 1.inside the HTML file with script tag, run in the console tab of browser.  2. add js app and   run with node .
+- There are two ways for adding JS to the project: 1.inside the HTML file with script tag, run in the console tab of browser.  2. add js app and run with node .
 
 - The problem with the first way: we have a concept in programming named "Separation of concerns" it means put everything in the right place at the first place we know that the program will be bigger so the styles, html and logic (HTML) seperately. 
 
 - So this is the right way: add the link of JS file in the index file <script src="./app.js">
+
+- Console.log shows what happened inside of the program in app and helps for debugging.
 
 - We stores temporarily the data in variables. label of box will be the name and what we put inside box is value.
 
