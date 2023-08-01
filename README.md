@@ -75,51 +75,51 @@ Before it runs only in browsers (Front-end).
 
 - List data: Arrays, the order of values have matter. the adderess of each one called indx. array type: object.
 
-- Array size isn't fixed and they're dynamic to add index.
+- Array size isn't fixed and they're dynamic to add an index.
 
 - Operators exist in maths too. first kind of them are Arithmetic operators: 1.+ 2.- 3.* 4./
 
 - console.log("4" + 3); concat and both types are string in + both converts to string.
 
-- we called a number inside a string: Numeric String like "4".
+- we called a number inside a string: A numeric String like "4".
 
-- In -,/,* the numeric string converts to number and boolean to number (null=0, true=1, false=0).
+- In -,/,* the numeric string converts to a number and the boolean to a number (null=0, true=1, false=0).
 
-- NAN: is an error that says not a number, it means we can't do substraction of a "4" with "yas" and also We can't MUltiply a number in a string: "4" * "yas".
+- NAN: is an error that says not a number, it means we can't do subtraction of a "4" with "yes" and also We can't MUltiply a number in a string: "4" * "yas".
 
-- and "4" and "3" we can do the opeartions and they convert to number.
+- and "4" and "3" we can do the opeartions and they convert to numbers.
 
-- We can seperate the long numbers with _ sign. like: 300_000.
+- We can separate the long numbers with _ sign. like: 300_000.
 
-- The result of Comparisons are boolean.
+- The result of Comparisons is boolean.
 
-- Equality: 1.Strict (type, value) ===  2.Loose (value) == 
+- Equality: 1. Strict (type, value) ===  2.Loose (value) == 
 
 - NOTE: use from strict type as much as you can cause it is more secure.
 
 - Not Equality: !== (type, value), != (value).
 
-- Ternary: Condition ? "AAA" : "BBB". 
+- Ternary: Condition? "AAA": "BBB". 
 
 - Ternary: kind of if condition, not only strings but functions or results can be used.
 
 - Logical operators-boolean : and &&, || or, ?? (null coalesing), !(not).
 
-- OR: do the process until reach to the first truthy, if none of them were truthy it will return the last expression.
+- OR: do the process until reach the first truthy, if none of them are truthy it will return the last expression.
 
-- AND: do the proceess until reach the first falsy, if all of them are truthy returns the last expression.
+- AND: do the process until reach the first falsy, if all of them are truthy returns the last expression.
 
-- Logical operators-non-boolean : there is a concept called truthy and falsy. 
+- Logical operators-non-boolean: there is a concept called truthy and falsy. 
 
-- falsy: 0, "", null, undefined, NAN. and the result of &&, || shouldn't be always boolean.
+- falsy: 0, "", null, undefined, NAN. and the result of &&, || shouldn't always be boolean.
 
-- Truthy: except above options.
+- Truthy: except the above options.
 
 - ?? used for converting 0 and "" to truthy values.
 
 - Control flow: if-else/ switch-case/ for/ while.
 
-- if use from BREAK it will check the other conditions too. when used switch-case that the values are constant like strings, int.
+- if used from BREAK it will check the other conditions too. when using switch-case that the values are constant like strings, int.
 
 - for loop: 
 
