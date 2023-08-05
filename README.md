@@ -138,7 +138,8 @@ we have multy return but one of the runs the first one
 
 - this refers to an object that operates the method.
 
-- Constuctor - factory function
+- Constuctor / factory function
+
 
 
 
