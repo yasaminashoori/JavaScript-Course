@@ -43,7 +43,7 @@ Before it runs only in browsers (Front-end).
  
 - There are two ways for adding JS to the project: 1. inside the HTML file with a script tag, run in the console tab of the browser.  2. add the js app and   run with node.
 
-- The problem with the first way: we have a concept in programming named "Separation of concerns" It means putting everything in the right place in the first place we know that the program will be bigger so the styles, HTML and logic (HTML) are separately. 
+- The problem with the first way: we have a concept in programming named "Separation of concerns" It means putting everything in the right place in the first place we know that the program will be bigger so the styles, HTML and logic (HTML) are separate. 
 
 - So this is the right way: add the link of the JS file in the index file <script src="./app.js">
 
@@ -71,27 +71,27 @@ Before it runs only in browsers (Front-end).
 
 - Dynamic objects with bracket notation.
 
-- List data: Arrays, the order of values have matter. the adderess of each one called indx. array type: object.
+- List data: Arrays, the order of values have mattered. the address of each one is called index. array type: object.
 
-- Array size isn't fixed and they're dynamic to add index.
+- Array size isn't fixed and they're dynamic to add an index.
 
 - Operators exist in maths too. first kind of them are Arithmetic operators: 1.+ 2.- 3.* 4./
 
 - console.log("4" + 3); concat and both types are string in + both converts to string.
 
-- we called a number inside a string: Numeric String like "4".
+- we called a number inside a string: A numeric String like "4".
 
-- In -,/,* the numeric string converts to number and boolean to number (null=0, true=1, false=0).
+- In -,/,* the numeric string converts to a number and the boolean to a number (null=0, true=1, false=0).
 
-- NAN: is an error that says not a number, it means we can't do substraction of a "4" with "yas" and also We can't MUltiply a number in a string: "4" * "yas".
+- NAN: is an error that says not a number, it means we can't do subtraction of a "4" with "yas" and also We can't MUltiply a number in a string: "4" * "yas".
 
-- and "4" and "3" we can do the opeartions and they convert to number.
+- and "4" and "3" we can do the operations and they convert to numbers.
 
-- We can seperate the long numbers with _ sign. like: 300_000.
+- We can separate the long numbers with _ sign. like: 300_000.
 
-- The result of Comparisons are boolean.
+- The result of Comparisons is boolean.
 
-- Equality: 1.Strict (type, value) ===  2.Loose (value) == 
+- Equality: 1. Strict (type, value) ===  2.Loose (value) == 
 
 - NOTE: use from strict type as much as you can cause it is more secure.
 
