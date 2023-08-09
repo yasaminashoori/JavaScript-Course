@@ -9,7 +9,7 @@
 
 - High-level, OO and Multi-Paradigm Programming Language(Functional or Class Programming).
 
-- JS usage: 1-in front: React, Angular 2.back: node js 3.Desktop: electron 4.Mobile: React Native
+- JS usage: 1-in Front: React, Angular 2. back: node js 3.Desktop: electron 4. Mobile: React Native
 
 2. JS role in web app?
 
