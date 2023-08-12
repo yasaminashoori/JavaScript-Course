@@ -9,11 +9,11 @@
 
 - High-level, OO and Multi-Paradigm Programming Language(Functional or Class Programming).
 
-- JS usage: 1-in front: React, Angular 2.back: node js 3.Desktop: electron 4.Mobile: React Native
+- JS usage: 1-in Front: React, Angular 2. back: node js 3.Desktop: electron 4. Mobile: React Native
 
 2. JS role in web app?
 
-- HTML is the structure and CSS is the presentation and js makes it usable and dynamic and intercation with the user.
+- HTML is the structure and CSS is the presentation and js makes it usable and dynamic and interaction with the user.
 
 - HTML (structural) noun, CSS (Presentational) adjective, JavaScript (Behavioral) verb.
 
@@ -21,17 +21,17 @@
 
 Before it runs only in browsers (Front-end).
 
-- By JS Engine: FireFox (SpiderMonkey), Chrome (V8).
+- By JS Engine: Firefox (SpiderMonkey), Chrome (V8).
 
 - Server-Side: Embed v8 engine inside c++ program => NodeJS
 
-- Run JS code outside browser.
+- Run JS code outside the browser.
 
 - Back-end of App.
 
 3. What is ECMAScript?
 
-- Releases of JS and Updatded versions.
+- Releases of JS and Updated versions.
 
 - Annual release of JS from 1997 to 2015 (ES6 is the latest version).
 
@@ -41,59 +41,57 @@ Before it runs only in browsers (Front-end).
 
 - We should send the JS to the browsers so they can run the codes.
  
-- There are two ways for adding JS to the project: 1.inside the HTML file with script tag, run in the console tab of browser.  2. add js app and run with node .
+- There are two ways for adding JS to the project: 1. inside the HTML file with a script tag, run in the console tab of the browser.  2. add the js app and   run with node.
 
-- The problem with the first way: we have a concept in programming named "Separation of concerns" it means put everything in the right place at the first place we know that the program will be bigger so the styles, html and logic (HTML) seperately. 
+- The problem with the first way: we have a concept in programming named "Separation of concerns" It means putting everything in the right place in the first place we know that the program will be bigger so the styles, HTML and logic (HTML) are separate. 
 
-- So this is the right way: add the link of JS file in the index file <script src="./app.js">
+- So this is the right way: add the link of the JS file in the index file <script src="./app.js">
 
-- Console.log shows what happened inside of the program in app and helps for debugging.
+- We store temporarily the data in variables. label of the box will be the name and what we put inside the box is the value.
 
-- We stores temporarily the data in variables. label of box will be the name and what we put inside box is value.
-
-- The names should be meaningful, and use them in everywhere of our program. we described them with these three key words: var, Const, Let.
+- The names should be meaningful, and use them in everywhere our program. we described them with these three keywords: var, Const, and Let.
 
 - Don't use var! it is outdated.
 
-- The names of var is camelCase and react PascalCase.
+- The names of var are camelCase and react PascalCase.
 
-- Data types: 1.Primitive types (value type includes: Boolean, Null, Undefined, Number, String, Symbol) 2.Object type (reference type includes: Array, Object, Function, Date, Regex).
+- Data types: 1. Primitive types (value type includes: Boolean, Null, Undefined, Number, String, Symbol) 2.Object type (reference type includes: Array, Object, Function, Date, Regex).
 
-- JS is Dynamic type and don't have to manually define them and determind automatically.
+- JS is a Dynamic type and doesn't have to manually define and determined them automatically.
 
 - Const vs Let: Const values can't be changed. and use const as much as possible. with let we can have undefined vars but in const we can't.
 
 - The most of types that we have in js are object means object type.
 
--  Object means the related data that gathered together and we can't store them in class.
+-  Object means the related data that is gathered together and we can't store them in class.
 
 - The objects are collections of key: values. 
 
-- NOTE: we can change the values that declared with const in object type cause we didn't change the reference it self but we changed the property of object or index of array. ( but give error if you write a new object with the same name user and want to decalre it)
+- NOTE: we can change the values that are declared with const in object type cause we didn't change the reference itself but we changed the property of the object or index of the array. ( but give an error if you write a new object with the same name user and want to declare it)
 
 - Dynamic objects with bracket notation.
 
-- List data: Arrays, the order of values have matter. the adderess of each one called indx. array type: object.
+- List data: Arrays, the order of values have mattered. the address of each one is called index. array type: object.
 
-- Array size isn't fixed and they're dynamic to add index.
+- Array size isn't fixed and they're dynamic to add an index.
 
 - Operators exist in maths too. first kind of them are Arithmetic operators: 1.+ 2.- 3.* 4./
 
 - console.log("4" + 3); concat and both types are string in + both converts to string.
 
-- we called a number inside a string: Numeric String like "4".
+- we called a number inside a string: A numeric String like "4".
 
-- In -,/,* the numeric string converts to number and boolean to number (null=0, true=1, false=0).
+- In -,/,* the numeric string converts to a number and the boolean to a number (null=0, true=1, false=0).
 
-- NAN: is an error that says not a number, it means we can't do substraction of a "4" with "yas" and also We can't MUltiply a number in a string: "4" * "yas".
+- NAN: is an error that says not a number, it means we can't do subtraction of a "4" with "yas" and also We can't MUltiply a number in a string: "4" * "yas".
 
-- and "4" and "3" we can do the opeartions and they convert to number.
+- and "4" and "3" we can do the operations and they convert to numbers.
 
-- We can seperate the long numbers with _ sign. like: 300_000.
+- We can separate the long numbers with _ sign. like: 300_000.
 
-- The result of Comparisons are boolean.
+- The result of Comparisons is boolean.
 
-- Equality: 1.Strict (type, value) ===  2.Loose (value) == 
+- Equality: 1. Strict (type, value) ===  2.Loose (value) == 
 
 - NOTE: use from strict type as much as you can cause it is more secure.
 
@@ -121,7 +119,8 @@ Before it runs only in browsers (Front-end).
 
 - if use from BREAK it will check the other conditions too. when used switch-case that the values are constant like strings, int.
 
-- for loop: 
+
+- for loop:  
 
 - for of and for in:  they used in another place. for in: for objects when wnat to find key values. and for if for idexes of array.
 
@@ -139,10 +138,9 @@ we have multy return but one of the runs the first one
 
 - this refers to an object that operates the method.
 
-- Constuctor - factory function
-# Season 9 
+- Constuctor / factory function
 
-77.for convert number to strings:   ```console.log(Number("34");```
+
 
 # Season 10: Introduction to DOM 
 1.At first we want to Implement and show them in our browser and all changes that applied to html. so what is DOM Manipulation that is an important task of JS and first of all what is DOM? When we talk about DOM, we mean the html document but we showed them as objects or reversed objects that we named them as DOM (Document Object Model) a model from html document. and DOM is a method of presenting the HTML tags as father child relationship that with the help of it we can change the attributes, elements content and it called interacting with Js with the HTML Document that we have. dom is not restricted to js and the browser capables us to use it. in a nutshell the HTML document converts to a DOM or an object and Document is the entry point's of this object and the first child is HTML an itself has Head and body.
