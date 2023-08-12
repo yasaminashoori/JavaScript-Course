@@ -144,6 +144,9 @@ we have multy return but one of the runs the first one
 
 77.for convert number to strings:   ```console.log(Number("34");```
 
+# Season 10: Introduction to DOM 
+1.At first we want to Implement and show them in our browser and all changes that applied to html. so what is DOM Manipulation that is an important task of JS and first of all what is DOM? When we talk about DOM, we mean the html document but we showed them as objects or reversed objects that we named them as DOM (Document Object Model) a model from html document. and DOM is a method of presenting the HTML tags as father child relationship that with the help of it we can change the attributes, elements content and it called interacting with Js with the HTML Document that we have. dom is not restricted to js and the browser capables us to use it. in a nutshell the HTML document converts to a DOM or an object and Document is the entry point's of this object and the first child is HTML an itself has Head and body.
+
 
 
 
