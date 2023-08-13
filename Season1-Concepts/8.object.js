@@ -5,6 +5,7 @@ const user = {
     isActive: true
 };
 
+
 user.name = "Me";
 delete user.isActive;
 

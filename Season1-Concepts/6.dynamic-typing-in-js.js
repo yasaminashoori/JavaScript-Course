@@ -1,0 +1,12 @@
+let userAge = 28;
+userAge = "My age";
+let userName = "yasi";
+const isActive = false;
+let users;  
+const likedPosts = null;  
+console.log(userAge, userName);
+console.log(typeof userName); 
+console.log(typeof userAge); 
+console.log(users); 
+console.log(users); 
+console.log(typeof isActive);
