@@ -7,23 +7,35 @@
 
 1. What is JavaScript?
 
-1-1.High-level, OO and Multi-Paradigm Programming Language(Functional or Class Programming).
+- High-level, OO and Multi-Paradigm Programming Language(Functional or Class Programming).
 
-1-2.JS usage: 1-in Front: React, Angular 2. back: node js 3.Desktop: electron 4. Mobile: React Native
+- JS usage: 1-in Front: React, Angular 2. back: node js 3.Desktop: electron 4. Mobile: React Native
 
-1-3.JS role in web app?
+2. JS role in web app?
 
-1-4.HTML is the structure and CSS is the presentation and js makes it usable and dynamic and interaction with the user.
+- HTML is the structure and CSS is the presentation and js makes it usable and dynamic and interaction with the user.
 
-1-5.HTML (structural) noun, CSS (Presentational) adjective, JavaScript (Behavioral) verb.
+- HTML (structural) noun, CSS (Presentational) adjective, JavaScript (Behavioral) verb.
 
-1-6.How to run JavaScript?  Before it runs only in browsers (Front-end)  By JS Engine: Firefox (SpiderMonkey), Chrome (V8).
+3. How to run JavaScript?
 
-1-7.Server-Side: Embed v8 engine inside c++ program => NodeJS and Run JS code outside the browser.
+Before it runs only in browsers (Front-end).
 
-1-8.Back-end of App.
+- By JS Engine: Firefox (SpiderMonkey), Chrome (V8).
 
-1-9.What is ECMAScript? Releases of JS and Updated versions. Annual release of JS from 1997 to 2015 (ES6 is the latest version).
+- Server-Side: Embed v8 engine inside c++ program => NodeJS
+
+- Run JS code outside the browser.
+
+- Back-end of App.
+
+3. What is ECMAScript?
+
+- Releases of JS and Updated versions.
+
+- Annual release of JS from 1997 to 2015 (ES6 is the latest version).
+
+- And JS is the Programming Language.
 
 - NodeJs used for 3rd party package.
 
@@ -115,7 +127,7 @@
 
 - continue: if a specific condition was true it returns to first of the loop and run the loop again and didn't run the other lines of loop. use it in special scenarios.
 
-- function: Power (**), every func gives parameters in ().
+- function: Power ( ** ), every func gives parameters in ().
 
 - question: we alays nedd to show a log to user ir want to access the result of processing
 
@@ -127,14 +139,11 @@ we have multy return but one of the runs the first one
 
 - Constuctor / factory function
 
-## Season 10: Introduction to DOM 
+# Season 10: Introduction to DOM 
 1. At first we want to Implement and show them in our browser and all changes that applied to html. so what is DOM Manipulation that is an important task of JS and first of all what is DOM? When we talk about DOM, we mean the html document but we showed them as objects or reversed objects that we named them as DOM (Document Object Model) a model from html document. and DOM is a method of presenting the HTML tags as father child relationship that with the help of it we can change the attributes, elements content and it called interacting with Js with the HTML Document that we have. dom is not restricted to js and the browser capables us to use it. in a nutshell the HTML document converts to a DOM or an object and Document is the entry point's of this object and the first child is HTML an itself has Head and body and so on it's called DOM Traversing. to access to the HTML tags in JavaScript we used from DOM helped us everything in our HTML Doc includes tag we can access it as an object includes the properties, names, id and the other details. so the duty of DOM is creating a structure that  with the help of JS we can access to DOM and select the HTML tags or create the elements, remove or update: DOM Manipulation
 DOM isn't just for JS!
-
 2. Select elements in DOM: we talked about that Document is the entry point. so we can access to all the data with typying "document." and they are CSS properties.
 one of the methods are queryselector that the entries of document. 
-
-3. Create or add elements in DOM: 1.create 2.content (classname or ...) 3.add element in dom 
 
 
   
