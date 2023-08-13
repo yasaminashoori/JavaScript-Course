@@ -106,8 +106,7 @@
 - Control flow: if-else/ switch-case/ for/ while.
 
 - if use from BREAK it will check the other conditions too. when used switch-case that the values are constant like strings, int.
-
-
+- 
 - for loop:  
 
 - for of and for in:  they used in another place. for in: for objects when wnat to find key values. and for if for idexes of array.
