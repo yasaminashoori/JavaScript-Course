@@ -49,7 +49,7 @@ Before it runs only in browsers (Front-end).
 
 - We store temporarily the data in variables. label of the box will be the name and what we put inside the box is the value.
 
-- The names should be meaningful, and use them in everywhere our program. we described them with these three keywords: var, Const, and Let.
+- The names should be meaningful, and use them everywhere in our program. we described them with these three keywords: var, Const, and Let.
 
 - Don't use var! it is outdated.
 
@@ -71,7 +71,7 @@ Before it runs only in browsers (Front-end).
 
 - Dynamic objects with bracket notation.
 
-- List data: Arrays, the order of values have mattered. the address of each one is called index. array type: object.
+- List data: Arrays, the order of values have mattered. the address of each one is called the index. array type: object.
 
 - Array size isn't fixed and they're dynamic to add an index.
 
