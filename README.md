@@ -49,7 +49,7 @@ Before it runs only in browsers (Front-end).
 
 - We store temporarily the data in variables. label of the box will be the name and what we put inside the box is the value.
 
-- The names should be meaningful, and use them in everywhere our program. we described them with these three keywords: var, Const, and Let.
+- The names should be meaningful, and use them everywhere in our program. we described them with these three keywords: var, Const, and Let.
 
 - Don't use var! it is outdated.
 
@@ -71,7 +71,7 @@ Before it runs only in browsers (Front-end).
 
 - Dynamic objects with bracket notation.
 
-- List data: Arrays, the order of values have mattered. the address of each one is called index. array type: object.
+- List data: Arrays, the order of values have mattered. the address of each one is called the index. array type: object.
 
 - Array size isn't fixed and they're dynamic to add an index.
 
@@ -117,21 +117,21 @@ Before it runs only in browsers (Front-end).
 
 - Control flow: if-else/ switch-case/ for/ while.
 
-- if use from BREAK it will check the other conditions too. when used switch-case that the values are constant like strings, int.
+- if used from BREAK it will check the other conditions too. when used switch-case that the values are constant like strings, int.
 - 
 - for loop:  
 
-- for of and for in:  they used in another place. for in: for objects when wnat to find key values. and for if for idexes of array.
+- for of and for in:  they used in another place. for in: for objects when want to find key values. and for if for idexes of array.
 
-- break: the process will stup and loop will be end.
+- break: the process will stup and the loop will be end.
 
-- continue: if a specific condition was true it returns to first of the loop and run the loop again and didn't run the other lines of loop. use it in special scenarios.
+- continue: if a specific condition was true it returns to the first of the loop and runs the loop again and didn't run the other lines of the loop. use it in special scenarios.
 
 - function: Power ( ** ), every func gives parameters in ().
 
-- question: we alays nedd to show a log to user ir want to access the result of processing
+- question: we always need to show a log to the user or wants to access the result of the processing
 
-- return: aeverything after return will ognored. and the result stores in the func.
+- return: everything after return will ignore. and the result is stored in the func.
 
 we have multy return but one of the runs the first one
 
@@ -140,7 +140,7 @@ we have multy return but one of the runs the first one
 - Constuctor / factory function
 
 # Season 10: Introduction to DOM 
-1. At first we want to Implement and show them in our browser and all changes that applied to html. so what is DOM Manipulation that is an important task of JS and first of all what is DOM? When we talk about DOM, we mean the html document but we showed them as objects or reversed objects that we named them as DOM (Document Object Model) a model from html document. and DOM is a method of presenting the HTML tags as father child relationship that with the help of it we can change the attributes, elements content and it called interacting with Js with the HTML Document that we have. dom is not restricted to js and the browser capables us to use it. in a nutshell the HTML document converts to a DOM or an object and Document is the entry point's of this object and the first child is HTML an itself has Head and body and so on it's called DOM Traversing. to access to the HTML tags in JavaScript we used from DOM helped us everything in our HTML Doc includes tag we can access it as an object includes the properties, names, id and the other details. so the duty of DOM is creating a structure that  with the help of JS we can access to DOM and select the HTML tags or create the elements, remove or update: DOM Manipulation
+1. At first we want to Implement and show them in our browser and all changes that are applied to HTML. so what is DOM Manipulation that is an important task of JS and first of all what is DOM? When we talk about DOM, we mean the HTML document but we showed them as objects or reversed objects that we named them as DOM (Document Object Model) a model from html document. and DOM is a method of presenting the HTML tags as father-child relationship that with the help of it we can change the attributes, elements content and it called interacting with Js with the HTML Document that we have. dom is not restricted to js and the browser enables us to use it. in a nutshell, the HTML document converts to a DOM or an object and the Document is the entry point's of this object and the first child is HTML itself has a Head and body and so on it's called DOM Traversing. to access to the HTML tags in JavaScript we used from DOM helped us everything in our HTML Doc includes tag we can access it as an object includes the properties, names, id and the other details. so the duty of DOM is creating a structure that  with the help of JS we can access to DOM and select the HTML tags or create the elements, remove or update: DOM Manipulation
 DOM isn't just for JS!
 
 2. Select elements in DOM: we talked about that Document is the entry point. so we can access to all the data with typying "document." and they are CSS properties.
