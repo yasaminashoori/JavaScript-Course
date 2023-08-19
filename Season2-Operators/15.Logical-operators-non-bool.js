@@ -3,8 +3,9 @@ console.log(true || "yas");
 console.log(0 || "yas");
 console.log(null || "yas");
 console.log(" " || 'yas');
-console.log(" " || 'yas');
-console.log(" " || 'yas');
+console.log(0 && 1);
+console.log(1 && "yas" && 0);
+
 
 const selectedColor = "blue";
 const defaultColor = "black";
