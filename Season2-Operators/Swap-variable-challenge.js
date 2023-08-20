@@ -6,5 +6,5 @@ temp = a;
 a = b;
 b = temp;
 
-console.log(a); // => 4
-console.log(b); // =>  2
+console.log(a); // => 2
+console.log(b); // => 
