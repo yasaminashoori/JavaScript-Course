@@ -25,3 +25,20 @@ function getRole(role) {
 
 const finalRole = getRole("ADMIN");
 console.log("The role is: ", finalRole);
+
+
+function SwitchUserRole(role) {
+    switch (role) {
+        case "ADMIN": 
+        return ("the user role is admin.");
+        case "MERCHANT": 
+        return ("the user role is merchant.");
+        case "TEACHER": 
+        return ("the user role is teacher.");
+        default:
+        return ("Unknown user role!");
+    }    
+}
+
+const userRole2 = SwitchUserRole("ADMIN");
+console.log(userRole2);

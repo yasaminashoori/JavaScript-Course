@@ -13,8 +13,8 @@ const roles = ["admin", "student", "teacher"];
 
 for (const role in roles) {
     console.log(role, roles[index]);
-}
+} //object
 
 for (const item of roles) {
     console.log(item);
-}
+} // array

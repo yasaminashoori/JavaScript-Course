@@ -1,4 +1,4 @@
-const paymentStatus = "SUCCESS";
+const paymentStatus = "SUCCESS"; //capital because it is constant
 const isVerifiedPayment = true;
 
 if (isVerifiedPayment && paymentStatus === "SUCCESS") {
