@@ -35,7 +35,7 @@ Before it runs only in browsers (Front-end).
 
 - Annual release of JS from 1997 to 2015 (ES6 is the latest version).
 
-- And JS is the Programming Language.
+4. And JS is the Programming Language.
 
 - NodeJs used for 3rd party package.
 
@@ -61,7 +61,7 @@ Before it runs only in browsers (Front-end).
 
 - Const vs Let: Const values can't be changed. and use const as much as possible. with let we can have undefined vars but in const we can't.
 
-- The most of types that we have in js are object means object type.
+- The most of types that we have in js are object type.
 
 -  Object means the related data that is gathered together and we can't store them in class.
 
@@ -85,9 +85,9 @@ Before it runs only in browsers (Front-end).
 
 - NAN: is an error that says not a number, it means we can't do subtraction of a "4" with "yas" and also We can't MUltiply a number in a string: "4" * "yas".
 
-- and "4" and "3" we can do the operations and they convert to numbers.
+- and "4" and "3" we can do the operations and convert them to numbers.
 
-- We can separate the long numbers with _ sign. like: 300_000.
+- We can separate the long numbers with (underline _ ) sign. like: 300_000.
 
 - The result of Comparisons is boolean.
 
