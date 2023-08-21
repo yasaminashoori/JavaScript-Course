@@ -13,4 +13,5 @@ const course = {
     },
 };
 
-console.log(course.calcOfPrice(100, 30));
+console.log(course.category.title);
+console.log(course.calcOfPrice(100, 30));          

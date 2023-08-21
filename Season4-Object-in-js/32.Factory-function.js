@@ -11,3 +11,4 @@ function createCourse(title, price, discount) {
 
 console.log(createCourse("js", 20, 23));
 
+ 

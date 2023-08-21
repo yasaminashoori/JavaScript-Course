@@ -6,14 +6,15 @@ console.log(userName, copied);
 const user = {
     name: "yas",
     age: "21",
-    friends: ["john", "sara"]
+    friends: ["sahar", "sara"]
 }; 
 
 const copiedUser = user;
 copiedUser.name = "Owner";
 console.log(user, copiedUser);
 
-const copiedUser2 = Object.assign({}, user); //shallow: copy first level value
+//shallow: copy first level value
+const copiedUser2 = Object.assign({}, user);
 copiedUser2.name = "ali";
 copiedUser2.friends.puah("Alex");
 console.log(user, copiedUser2);
