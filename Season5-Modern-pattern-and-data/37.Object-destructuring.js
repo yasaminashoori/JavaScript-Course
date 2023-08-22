@@ -16,10 +16,12 @@ const course = {
     },
 };
 
+console.log(course.category.englishTitle); //too long
+
+const {title, category} = course; //shorten the access
 console.log(category.englishTitle);
-const {title, category} = course;
-console.log(course.category.englishTitle);
-const {title : courseTitle, tags} = course;
+
+const {title : courseTitle, tags} = course; 
 console.log(courseTitle);
 
 const {title : courseTitle2, prices = [], category: {englishTitle}} = course;
