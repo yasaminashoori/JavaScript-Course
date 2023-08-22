@@ -16,7 +16,7 @@ console.log(user, copiedUser);
 //shallow: copy first level value
 const copiedUser2 = Object.assign({}, user);
 copiedUser2.name = "ali";
-copiedUser2.friends.puah("Alex");
+copiedUser2.friends.pushh("Alex");
 console.log(user, copiedUser2);
 
 //deep

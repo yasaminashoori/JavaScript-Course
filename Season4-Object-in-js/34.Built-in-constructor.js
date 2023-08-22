@@ -1,4 +1,4 @@
-const strLit = "yas";
+const strLit = "yas"; //string literal
 const strObj = new String("yas");
 console.log(strLit.length);
 console.log(strLit, typeof strLit);

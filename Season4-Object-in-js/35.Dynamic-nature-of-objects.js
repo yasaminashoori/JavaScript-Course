@@ -8,6 +8,7 @@ function createCourse(title, price, discount) {
 }
 
 const course1 = new createCourse("next", 300, 34);
+const course2 = new createCourse("react", 300, 34);
 course1.students = 120;
 delete course1.title;
 console.log(course1);
