@@ -10,22 +10,33 @@ const course = {
         title: "front-end",
         id: 2
     },
-    calcOfPrice: function () {
+    calcOfPrice() {
         this.ofPrice = this.price * (1 - this.discount / 100)
         return this.ofPrice;
     },
+    showWelcomMessage(){obj} {
+        console.log(obj);
+        console.log();
+    }
 };
 
 console.log(course.category.englishTitle); //too long
 
-const {title, category} = course; //shorten the access
+const {price, category} = course; //shorten the access
 console.log(category.englishTitle);
 
-const {title : courseTitle, tags} = course; 
+const {title : courseTitle, favourites = []} = course; 
 console.log(courseTitle);
-
-const {title : courseTitle2, prices = [], category: {englishTitle}} = course;
-console.log(courseTitle2, prices);
 
 const {englishTitle, id, title} = category;
 console.log(englishTitle);
+
+// used together for catefory declration
+// const {title : courseTitle2, prices = [], category: {englishTitle}} = course;
+// console.log(courseTitle2, prices);
+
+course.showWelcomMessage({
+    name: "saheb",
+    email : "yasamin@gmail.com",
+    phonenumber : "092212",
+});
