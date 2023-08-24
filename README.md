@@ -13,7 +13,7 @@
 
 2. JS role in web app?
 
-- HTML is the structure and CSS is the presentation and js makes it usable and dynamic and interaction with the user.
+- HTML is the structure and CSS is the presentation and JS makes it usable and dynamic and interacts with the user.
 
 - HTML (structural) noun, CSS (Presentational) adjective, JavaScript (Behavioral) verb.
 
@@ -57,11 +57,11 @@ Before it runs only in browsers (Front-end).
 
 - Data types: 1. Primitive types (value type includes: Boolean, Null, Undefined, Number, String, Symbol) 2.Object type (reference type includes: Array, Object, Function, Date, Regex).
 
-- JS is a Dynamic type and doesn't have to manually define and determined them automatically.
+- JS is a Dynamic type and doesn't have to manually define and determine them automatically.
 
 - Const vs Let: Const values can't be changed. and use const as much as possible. with let we can have undefined vars but in const we can't.
 
-- The most of types that we have in js are object type.
+- The most of types that we have in js are object types.
 
 -  Object means the related data that is gathered together and we can't store them in class.
 
