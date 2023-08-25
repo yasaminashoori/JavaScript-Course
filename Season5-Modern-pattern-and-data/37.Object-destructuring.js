@@ -14,10 +14,7 @@ const course = {
         this.ofPrice = this.price * (1 - this.discount / 100)
         return this.ofPrice;
     },
-    showWelcomMessage(){obj} {
-        console.log(obj);
-        console.log();
-    }
+    showWelcomMessage({name, email, phonenumber, username = "-"}) {},
 };
 
 console.log(course.category.englishTitle); //too long
@@ -28,12 +25,13 @@ console.log(category.englishTitle);
 const {title : courseTitle, favourites = []} = course; 
 console.log(courseTitle);
 
-const {englishTitle, id, title} = category;
-console.log(englishTitle);
+// seperate categpry
+// const {englishTitle} = category;
+// console.log(englishTitle);
 
-// used together for catefory declration
-// const {title : courseTitle2, prices = [], category: {englishTitle}} = course;
-// console.log(courseTitle2, prices);
+// used together for catefory declration : nested
+const {title : courseTitle2, prices = [], category: {englishTitle, id, title}} = course;
+console.log(courseTitle2, prices, englishTitle);
 
 course.showWelcomMessage({
     name: "saheb",
