@@ -1,7 +1,13 @@
+const calceOfPrice2 = function (price, discount) {
+    console.log("hi");
+    return price * (1-discount);
+}
+
 const calceOfPrice = (price, discount) => {
     console.log("hi");
     return price * (1-discount);
 }
+
 
 const addByFive = a => a  / 5;
 
