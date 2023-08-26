@@ -26,7 +26,16 @@ console.log(Math.trunc(-23.9));
 console.log(Math.floor(Math.random() * 8 + 1));
 
  
-const generateRandom(min, max) => 
-Math.floor(Math.random() (max + min ))
+const generateRandom = (min, max) => {
+    min = Math.ceil();
+    max = Math.floor();
+    return Math.floor(Math.random() * (max - min + 1) + min)
+}
 
+console.log(generateRandom(3, 7));
+console.log(generateRandom(3.3, 7.5));
+
+console.log((23).toFixed(2));
+console.log((23.676).toFixed(1));
+console.log((23.453).toFixed(2));
 
