@@ -41,7 +41,7 @@ Before it runs only in browsers (Front-end).
 
 - We should send the JS to the browsers so they can run the codes.
  
-- There are two ways for adding JS to the project: 1. inside the HTML file with a script tag, run in the console tab of the browser.  2. add the js app and   run with node.
+- There are two ways to add JS to the project: 1. inside the HTML file with a script tag, run in the console tab of the browser.  2. Add the js app and   run with node.
 
 - The problem with the first way: we have a concept in programming named "Separation of concerns" It means putting everything in the right place in the first place we know that the program will be bigger so the styles, HTML and logic (HTML) are separate. 
 
