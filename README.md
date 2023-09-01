@@ -87,7 +87,7 @@ Before it runs only in browsers (Front-end).
 
 - and "4" and "3" we can do the operations and convert them to numbers.
 
-- We can separate the long numbers with (underline _ ) sign. like: 300_000.
+- We can separate the long numbers with the (underline _ ) sign. like: 300_000.
 
 - The result of Comparisons is boolean.
 
