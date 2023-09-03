@@ -47,7 +47,7 @@ Before it runs only in browsers (Front-end).
 
 - So this is the right way: add the link of the JS file in the index file <script src="./app.js">
 
-- We store temporarily the data in variables. label of the box will be the name and what we put inside the box is the value.
+- We temporarily store the data in variables. label of the box will be the name and what we put inside the box is the value.
 
 - The names should be meaningful, and use them everywhere in our program. we described them with these three keywords: var, Const, and Let.
 
