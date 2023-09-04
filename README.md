@@ -59,7 +59,7 @@ Before it runs only in browsers (Front-end).
 
 - JS is a Dynamic type and doesn't have to manually define and determine them automatically.
 
-- Const vs Let: Const values can't be changed. and use const as much as possible. with let we can have undefined vars but in const we can't.
+- Const vs. Let: Const values can't be changed. and use const as much as possible. with let we can have undefined vars but in const we can't.
 
 - The most of types that we have in js are object types.
 
