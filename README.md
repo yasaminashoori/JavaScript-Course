@@ -103,11 +103,11 @@ Before it runs only in browsers (Front-end).
 
 - Logical operators-boolean : and &&, || or, ?? (null coalesing), !(not).
 
-- OR: do the process until reach to the first truthy, if none of them were truthy it will return the last expression.
+- OR: do the process until reach the first truthy, if none of them are truthy it will return the last expression.
 
-- AND: do the proceess until reach the first falsy, if all of them are truthy returns the last expression.
+- AND: do the process until reach the first falsy, if all of them are truthy return the last expression.
 
-- Logical operators-non-boolean : there is a concept called truthy and falsy. 
+- Logical operators-non-boolean: there is a concept called truthy and falsy. 
 
 - falsy: 0, "", null, undefined, NAN. and the result of &&, || shouldn't be always boolean.
 
