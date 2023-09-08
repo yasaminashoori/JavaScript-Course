@@ -67,7 +67,7 @@ Before it runs only in browsers (Front-end).
 
 - The objects are collections of key: values. 
 
-- NOTE: we can change the values that are declared with const in object type cause we didn't change the reference itself but we changed the property of the object or index of the array. ( but give an error if you write a new object with the same name user and want to declare it)
+- NOTE: We can change the values that are declared with const in object type cause we didn't change the reference itself but we changed the property of the object or index of the array. ( but give an error if you write a new object with the same name as the user and want to declare it)
 
 - Dynamic objects with bracket notation.
 
