@@ -93,7 +93,7 @@ Before it runs only in browsers (Front-end).
 
 - Equality: 1. Strict (type, value) ===  2.Loose (value) == 
 
-- NOTE: use from strict type as much as you can cause it is more secure.
+- NOTE: use from strict  type as much as you can cause it is more secure.
 
 - Not Equality: !== (type, value), != (value).
 
