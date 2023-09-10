@@ -14,8 +14,10 @@ const userRoles = ["ADMIN", "ADMIN", "teacher"];
 const uniqueRoles = new Set(roles);
 console.log(...uniqueRoles);
 
+// create unique array
 const uniqueRoles2 = [...new Set(roles)];
 console.log(uniqueRoles2);
 console.log(new Set(roles).size);
 
+// Create unique string
 console.log([...new Set("Yasaaaaminnn adsddfsdf")].join(""));

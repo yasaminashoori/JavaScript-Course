@@ -13,7 +13,7 @@
 
 2. JS role in web app?
 
-- HTML is the structure and CSS is the presentation and js makes it usable and dynamic and interaction with the user.
+- HTML is the structure and CSS is the presentation and JS makes it usable and dynamic and interacts with the user.
 
 - HTML (structural) noun, CSS (Presentational) adjective, JavaScript (Behavioral) verb.
 
@@ -41,13 +41,13 @@ Before it runs only in browsers (Front-end).
 
 - We should send the JS to the browsers so they can run the codes.
  
-- There are two ways for adding JS to the project: 1. inside the HTML file with a script tag, run in the console tab of the browser.  2. add the js app and   run with node.
+- There are two ways to add JS to the project: 1. inside the HTML file with a script tag, run in the console tab of the browser.  2. Add the js app and   run with node.
 
 - The problem with the first way: we have a concept in programming named "Separation of concerns" It means putting everything in the right place in the first place we know that the program will be bigger so the styles, HTML and logic (HTML) are separate. 
 
 - So this is the right way: add the link of the JS file in the index file <script src="./app.js">
 
-- We store temporarily the data in variables. label of the box will be the name and what we put inside the box is the value.
+- We temporarily store the data in variables. label of the box will be the name and what we put inside the box is the value.
 
 - The names should be meaningful, and use them everywhere in our program. we described them with these three keywords: var, Const, and Let.
 
@@ -57,17 +57,17 @@ Before it runs only in browsers (Front-end).
 
 - Data types: 1. Primitive types (value type includes: Boolean, Null, Undefined, Number, String, Symbol) 2.Object type (reference type includes: Array, Object, Function, Date, Regex).
 
-- JS is a Dynamic type and doesn't have to manually define and determined them automatically.
+- JS is a Dynamic type and doesn't have to manually define and determine them automatically.
 
-- Const vs Let: Const values can't be changed. and use const as much as possible. with let we can have undefined vars but in const we can't.
+- Const vs. Let: Const values can't be changed. and use const as much as possible. with let we can have undefined vars but in const we can't.
 
-- The most of types that we have in js are object type.
+- The most of types that we have in js are object types.
 
 -  Object means the related data that is gathered together and we can't store them in class.
 
 - The objects are collections of key: values. 
 
-- NOTE: we can change the values that are declared with const in object type cause we didn't change the reference itself but we changed the property of the object or index of the array. ( but give an error if you write a new object with the same name user and want to declare it)
+- NOTE: We can change the values that are declared with const in object type cause we didn't change the reference itself but we changed the property of the object or index of the array. ( but give an error if you write a new object with the same name as the user and want to declare it)
 
 - Dynamic objects with bracket notation.
 
@@ -87,7 +87,7 @@ Before it runs only in browsers (Front-end).
 
 - and "4" and "3" we can do the operations and convert them to numbers.
 
-- We can separate the long numbers with (underline _ ) sign. like: 300_000.
+- We can separate the long numbers with the (underline _ ) sign. like: 300_000.
 
 - The result of Comparisons is boolean.
 
@@ -103,11 +103,11 @@ Before it runs only in browsers (Front-end).
 
 - Logical operators-boolean : and &&, || or, ?? (null coalesing), !(not).
 
-- OR: do the process until reach to the first truthy, if none of them were truthy it will return the last expression.
+- OR: do the process until reach the first truthy, if none of them are truthy it will return the last expression.
 
-- AND: do the proceess until reach the first falsy, if all of them are truthy returns the last expression.
+- AND: do the process until reach the first falsy, if all of them are truthy return the last expression.
 
-- Logical operators-non-boolean : there is a concept called truthy and falsy. 
+- Logical operators-non-boolean: there is a concept called truthy and falsy. 
 
 - falsy: 0, "", null, undefined, NAN. and the result of &&, || shouldn't be always boolean.
 

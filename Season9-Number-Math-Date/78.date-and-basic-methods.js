@@ -1,0 +1,14 @@
+const now = new Date();
+console.log(now);
+const newDate = new Date("Wed April 2023 14:51:13");
+const newDate2 = new Date("2023,1,23");
+console.log(newDate);
+const year = now.getFullYear();
+const month = now.getMonth();
+const date = now.getDate();
+console.log(newDate2);
+console.log(now.toISOString());
+console.log(now.toLocaleDateString("fa"));
+console.log(now.toLocaleString("fa"));
+console.log(now.getTime());
+console.log(Date.now());
