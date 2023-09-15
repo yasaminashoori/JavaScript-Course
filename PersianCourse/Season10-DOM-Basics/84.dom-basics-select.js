@@ -5,15 +5,12 @@ console.log(course.tagName); // Enter the tags information
 console.log(course.classList);
 console.log(course.textContent);
 const courses = document.querySelectorAll(".course-title");
-console.log(courses[1]); // it will print the informations of tags 
+console.log(courses[1]); // it will print the informations of tags
 
-courses.array.forEach(c => {
-    console.log(c.textContent);
+courses.array.forEach((c) => {
+  console.log(c.textContent);
 });
 
 console.log(document.getElementById("course-list"));
 console.log(document.querySelector("#course-list"));
 console.log(document.getElementsByClassName("courses"));
-
-
-
