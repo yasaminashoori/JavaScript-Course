@@ -117,7 +117,7 @@ Before it runs only in browsers (Front-end).
 
 - Control flow: if-else/ switch-case/ for/ while.
 
-- if used from BREAK it will check the other conditions too. when used switch-case that the values are constant like strings, int.
+- if used from BREAK it will check the other conditions too. when using switch-case the values are constant like strings, int.
 - 
 - for loop:  
 
