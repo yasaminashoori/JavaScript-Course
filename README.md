@@ -125,6 +125,7 @@ Before it runs only in browsers (Front-end).
 
 - break: the process will stup and the loop will be end.
 
+
 - continue: if a specific condition was true it returns to the first of the loop and runs the loop again and didn't run the other lines of the loop. use it in special scenarios.
 
 - function: Power ( ** ), every func gives parameters in ().
