@@ -1,0 +1,88 @@
+/* Reset */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Root variable */
+:root {
+  --color-primary: #ff5722;
+  --color-primary-light: #ff7a50;
+  --color-secondary-light: #fff6f2;
+  --color-secondary-dark: #ffa589;
+  --color-navbar: #f8f8f8;
+  --color-body: #333333;
+  --colot-headings: #000000;
+  --color-white: #fff;
+}
+
+
+/* Typography */
+body, input, label, button {
+  color: var(--color-body);
+  font-size: 1.4rem;
+  line-height: 1.6;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1rem 2rem;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--color-headings);
+  font-weight: 700;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+      font-size: 1.8rem;
+    }
+  
+    h1 {
+      font-size: 5rem;
+    }
+  
+    h2 {
+      font-size: 3.5rem;
+    }
+}
+
+form{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input{
+    outline: 0;
+    border: 1px solid #ccc;
+    padding: 1rem 1rem;
+    display: block;
+    margin-right: 4rem;
+}
+
+button{
+    margin: 0 auto;
+    display: block;
+    margin-top: 10rem;
+    width: 50%;
+    padding: 1rem 2rem;
+    border: 1px solid #CCC;
+    border-radius: 8PX;
+    background-color: #f79b7f;
+}
