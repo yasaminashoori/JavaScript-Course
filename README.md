@@ -97,7 +97,7 @@ Before it runs only in browsers (Front-end).
 
 - Not Equality: !== (type, value), != (value).
 
-- Ternary: Condition ? "AAA" : "BBB". 
+- Ternary: Condition? "AAA" : "BBB". 
 
 - Ternary: kind of if condition, not only strings but functions or results can be used.
 
