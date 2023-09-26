@@ -1,14 +1,10 @@
-document.querySelectorAll('button')
+'use strict';
 
+document.querySelector('body').style.background = '#FBAB7E linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%)';
 
-const massMark = 78;
-const heightMark = 1.69;
-const massJohn = 92;
-const heightJohn = 1.95;
-
-const bmiMark = massMark / heightMark **2;
-const bmiJohn = massJohn / heightJohn **2;
-
-const markHigherBMI = bmiMark > bmiJohn;
-console.log("he has higher bmi and the value is" + " " + bmiMark + " " +  bmiJohn );
-console.log(markHigherBMI);
+document.querySelector('.calculate').addEventListener('click', function () {
+    const mass = Number(document.querySelector('#mass').value);
+    const height = Number(document.querySelector('#height').value);
+    const bmi = mass / (height ** 2);
+    document.querySelector('#result').value = bmi.toFixed(2); // Display BMI with 2 decimal places
+});
