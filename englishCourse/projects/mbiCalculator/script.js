@@ -6,5 +6,5 @@ document.querySelector('.calculate').addEventListener('click', function () {
     const mass = Number(document.querySelector('#mass').value);
     const height = Number(document.querySelector('#height').value);
     const bmi = mass / (height ** 2);
-    document.querySelector('#result').value = bmi.toFixed(2); // Display BMI with 2 decimal places
+    document.querySelector('#result').value = bmi.toFixed(2); 
 });
