@@ -1,0 +1,3 @@
+const calcAverage = (dolphinsArr, KoalasArr) => {
+
+}
