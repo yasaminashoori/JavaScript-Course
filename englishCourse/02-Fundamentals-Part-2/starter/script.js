@@ -1,3 +1,0 @@
-const calcAverage = (dolphinsArr, KoalasArr) => {
-
-}
