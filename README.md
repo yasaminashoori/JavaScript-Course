@@ -13,7 +13,7 @@
 
 2. JS role in web app?
 
-- HTML is the structure and CSS is the presentation and JS makes it usable and dynamic and interacts with the user.
+- HTML is the structure CSS is the presentation and JS makes it usable and dynamic and interacts with the user.
 
 - HTML (structural) noun, CSS (Presentational) adjective, JavaScript (Behavioral) verb.
 
