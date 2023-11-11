@@ -2,7 +2,7 @@
 
 ## Index
 
-1. <b>Hello World</b>
+ ### 1. Hello World
    To access the developer console in Chrome, press Ctrl + Alt + J or go to the Menu and select View > Developer > Developer Console. The console is used by developers to test and write JavaScript code to fix errors and find bugs. The alert('text') function can be used to display a message in the console.
    Note: developer console used for: test and write js code to fix errors and find the errors.
 
@@ -12,7 +12,7 @@ JavaScript is a high-level, object-oriented, multi-paradigm programming language
 
 JavaScript can be used outside of the browser on a web server, as well as on the front-end of web applications. The latest version of JavaScript, ES6, has huge updates and changes and is called modern JavaScript. It receives yearly updates. It is recommended to learn ES5 before starting with ES6.
 
-2. <b>What is Javascript?</b>
+ ### 2. What is Javascript?
 
 JavaScript is a high-level, object-oriented, multi-paradigm programming language. It is considered high-level because the programmer does not need to worry about managing memory and other complex tasks. JavaScript is also multi-paradigm, meaning it can be used for different structures of code.
 
