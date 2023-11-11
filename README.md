@@ -1,7 +1,6 @@
 # JavaScript-Course
 
 # Season 1 
-
 - const
 - var
 
@@ -118,7 +117,8 @@ Before it runs only in browsers (Front-end).
 - Control flow: if-else/ switch-case/ for/ while.
 
 - if used from BREAK it will check the other conditions too. when using switch-case the values are constant like strings, int.
-- 
+
+  
 - for loop:  
 
 - for of and for in:  they used in another place. for in: for objects when want to find key values. and for if for idexes of array.
