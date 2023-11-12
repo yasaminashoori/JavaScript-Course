@@ -117,14 +117,12 @@ Before it runs only in browsers (Front-end).
 - Control flow: if-else/ switch-case/ for/ while.
 
 - if used from BREAK it will check the other conditions too. when using switch-case the values are constant like strings, int.
-
   
 - for loop:  
 
 - for of and for in:  they used in another place. for in: for objects when want to find key values. and for if for idexes of array.
 
 - break: the process will stup and the loop will be end.
-
 
 - continue: if a specific condition was true it returns to the first of the loop and runs the loop again and didn't run the other lines of the loop. use it in special scenarios.
 
