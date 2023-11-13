@@ -1,4 +1,3 @@
-////////////////////////////////////
 // Coding Challenge #1
 
 /*
@@ -16,17 +15,13 @@ GOOD LUCK 😀
 
 const markMass = 78;
 const markHeight = 1.69;
-const johnMass = 95;
-const johnHeight = 1.88;
+const johnMass = 92;
+const johnHeight = 1.65;
 
 const bmiMark = markMass / markHeight ** 2;
 const bmiJohn = johnMass / johnHeight ** 2;
 
 const markHigherBMI = bmiMark > bmiJohn;
-console.log(`Mark's BMI ${bmiMark} and JOhn's is ${bmiJohn}, mark is higher: ${markHigherBMI}`);
-
-
-
-
-
-
+console.log(
+  `Mark's BMI ${bmiMark} and John's is ${bmiJohn}, mark is higher: ${markHigherBMI}`
+);
