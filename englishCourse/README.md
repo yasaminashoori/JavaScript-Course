@@ -142,3 +142,9 @@ Comparison values are used to compare two values. For example, x > y will return
 JavaScript has a well-defined order of operator precedence. For example, log(NOW - 1991 > NOW - 2018) is evaluated as log(true).
 
 X = y = 25 - 10 - 5 sets the value of both x and y to 10.
+
+### Strings and Template Lietrals
+
+Building Strings in an easiest way is Template Literal.
+
+plus sign to join the strings together.
