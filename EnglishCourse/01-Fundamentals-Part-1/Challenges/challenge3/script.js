@@ -17,11 +17,22 @@ TEST DATA BONUS 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
 GOOD LUCK 😀
 */
 
-const arrDolphins =[96, 108, 89];
-const arrKoalas =[88, 91, 110];
-const aveDolphins = arrDolphins[0] + arrDolphins[1] + arrDolphins[2] / 3;
-const aveKoalas = arrKoalas[0] + arrKoalas[1] + arrKoalas[2] / 3;
-if (aveKoalas && aveDolphins >= 100) {
-    
+const aveDolphins = (96 + 108 + 89) / 3;
+const aveKoalas = 88 + 91 + 110 / 3;
+if (aveKoalas && aveDolphins >= 100 && aveKoalas > aveDolphins) {
+  console.log("The winner is Koalas");
+} else if (aveDolphins && aveKoalas >= 100 && aveDolphins > aveKoalas) {
+  console.log("The winner is Dolphines");
+} else if (aveKoalas === aveKoalas) {
+  console.log("They are qual");
+} else {
+  console.log("No one wins the trophy 😭");
 }
 
+// const arrDolphins = [96, 108, 89];
+// const arrKoalas = [88, 91, 110];
+// const aveDolphins = arrDolphins[0] + arrDolphins[1] + arrDolphins[2] / 3;
+// const aveKoalas = arrKoalas[0] + arrKoalas[1] + arrKoalas[2] / 3;
+// if (aveKoalas && aveDolphins >= 100) {
+//   console.log();
+// }
