@@ -137,14 +137,52 @@ Operators allow us to transform and combine values. Arithmetic operators let us 
 
 Comparison values are used to compare two values. For example, x > y will return true if x is greater than y, and false if it's not. When using comparison values, it's important to read from left to right.
 
-### Operator Precedence
+### Operator Precedence:
 
-JavaScript has a well-defined order of operator precedence. For example, log(NOW - 1991 > NOW - 2018) is evaluated as log(true).
+JavaScript follows a specific order of operator precedence. For instance, the expression "log(NOW - 1991 > NOW - 2018)" is evaluated as "log(true)".
 
-X = y = 25 - 10 - 5 sets the value of both x and y to 10.
+To set the value of two variables x and y to 10, you can use the expression "X = y = 25 - 10 - 5".
 
-### Strings and Template Lietrals
+### Strings and Template Literals:
 
-Building Strings in an easiest way is Template Literal.
+The easiest way to build strings is by using Template Literals. You can join strings together using the plus sign.
 
-plus sign to join the strings together.
+### If-Else Statement:
+
+The If-Else statement checks whether one of them is true or not. It is called the If-Else control structure and does not execute in a linear way. It is not allowed to use outside of the block, and it only runs inside the blocks.
+
+### Type Conversion and Coercion:
+
+Conversion is a common operation in JavaScript. Type Conversion is done manually and explicitly. Type Coercion is done implicitly and automatically by JavaScript.
+
+When input comes in string format, Number() converts them to number type. However, something that doesn't work is NaN, which means still a number but it fails to give a new number. String is spelled with a capital S (or N for Number). JS can convert to number, string, or boolean. Boolean works in a special way.
+
+Coercion Type happens when dealing with two different types, and JavaScript will convert them to match them.
+
+### Truthy and Falsey:
+
+Falsy values are the values that become false when converted to a boolean. Some examples include 0, "", undefined, null, and NaN. Boolean is implicit, and type coercion is always implicit when logical operators are in a logical context like if-else condition/converted to a boolean return.
+
+### Equality Operators:
+
+The comparison operators are similar to before, but now equality operators agree if it's 18. If it has only one line, we don't need to have curly braces. They always return a true or false. There are strict (===) and loose equality operators (==); it is always better to use the strict version.
+
+Boolean Logic:
+
+And Or Not.
+
+### Logical Operators:
+
+|| && !
+
+Switch Statement:
+
+It is similar to If-Else, but it is used when there is one value and multiple conditions.
+
+### Statements and Expressions:
+
+An expression is a piece of code that produces a value. For instance, "3 + 4" is an expression, and the value is 7. In comparison, a statement is a more extensive code that contains expressions. Statements cannot be used in expressions.
+
+### The Condition Ternary Operator:
+
+It is used to assign one of two values to a variable depending on a condition. Ternary can be used inside the literal, and all the code is in one line. The operator always produces a value.
