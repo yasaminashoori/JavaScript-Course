@@ -5,11 +5,11 @@
 ### 1. Hello World
 
 To access the developer console in Chrome, press Ctrl + Alt + J or go to the Menu and select View > Developer > Developer Console. The console is used by developers to test and write JavaScript code to fix errors and find bugs. The alert('text') function can be used to display a message in the console.
-Note: developer console used for: test and write js code to fix errors and find the errors.
+Note: developer console used for: testing and writing js code to fix errors and find the errors.
 
 For example, you can assign the value 'amazing' to the variable js using the code "let js = 'amazing'". Then, you can use an if statement to check if js is equal to 'amazing', and display a message using the alert() function if it is. Finally, you can assign the value 'boring' to js using the code "js = 'boring'".
 
-JavaScript is a high-level, object-oriented, multi-paradigm programming language. It is high-level, which means that you don't need to worry about managing memory and other complex tasks. It is also multi-paradigm, which means that it can be used for different programming structures.
+JavaScript is a high-level, object-oriented, multi-paradigm programming language. It is high-level, which means that you don't need to worry about managing memory and other complex tasks. It is also a multi-paradigm, which means that it can be used for different programming structures.
 
 JavaScript can be used outside of the browser on a web server, as well as on the front-end of web applications. The latest version of JavaScript, ES6, has huge updates and changes and is called modern JavaScript. It receives yearly updates. It is recommended to learn ES5 before starting with ES6.
 
@@ -29,9 +29,9 @@ Variables in JavaScript can only contain numbers, letters, underscores, and doll
 
 ### 3. Values and Variables:
 
-Only Numbers, Letters, Underscore and dollar sign are allowed but not the Numbers at the first of vars.
+Only Numbers, Letters, Underscore, and dollar signs are allowed but not the Numbers at the first of vars.
 
-The names should be descriptive so we can undresrtand them better.
+The names should be descriptive so we can understand them better.
 
 Value
 
