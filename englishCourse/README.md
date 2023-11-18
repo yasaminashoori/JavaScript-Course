@@ -169,7 +169,7 @@ The comparison operators are similar to before, but now equality operators agree
 
 Boolean Logic:
 
-And Or Not.
+And /Or/ Not.
 
 ### Logical Operators:
 
