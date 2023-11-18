@@ -186,3 +186,19 @@ An expression is a piece of code that produces a value. For instance, "3 + 4" is
 ### The Condition Ternary Operator:
 
 It is used to assign one of two values to a variable depending on a condition. Ternary can be used inside the literal, and all the code is in one line. The operator always produces a value.
+
+### JavaScript Releases ES5 ES6
+
+We had ECMA JS 5 and ECMA JS 6 in 2015 which have huge changes and started the yearly releases from that time. 
+
+
+### Strict Mode 
+
+1. Forbid us to do certain things
+2. It creates visible errors and the developer console where js would fail silently
+
+
+
+
+
+
