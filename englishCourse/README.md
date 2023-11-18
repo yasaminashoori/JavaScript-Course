@@ -5,11 +5,11 @@
 ### 1. Hello World
 
 To access the developer console in Chrome, press Ctrl + Alt + J or go to the Menu and select View > Developer > Developer Console. The console is used by developers to test and write JavaScript code to fix errors and find bugs. The alert('text') function can be used to display a message in the console.
-Note: developer console used for: test and write js code to fix errors and find the errors.
+Note: developer console used for: testing and writing js code to fix errors and find the errors.
 
 For example, you can assign the value 'amazing' to the variable js using the code "let js = 'amazing'". Then, you can use an if statement to check if js is equal to 'amazing', and display a message using the alert() function if it is. Finally, you can assign the value 'boring' to js using the code "js = 'boring'".
 
-JavaScript is a high-level, object-oriented, multi-paradigm programming language. It is high-level, which means that you don't need to worry about managing memory and other complex tasks. It is also multi-paradigm, which means that it can be used for different programming structures.
+JavaScript is a high-level, object-oriented, multi-paradigm programming language. It is high-level, which means that you don't need to worry about managing memory and other complex tasks. It is also a multi-paradigm, which means that it can be used for different programming structures.
 
 JavaScript can be used outside of the browser on a web server, as well as on the front-end of web applications. The latest version of JavaScript, ES6, has huge updates and changes and is called modern JavaScript. It receives yearly updates. It is recommended to learn ES5 before starting with ES6.
 
@@ -29,9 +29,9 @@ Variables in JavaScript can only contain numbers, letters, underscores, and doll
 
 ### 3. Values and Variables:
 
-Only Numbers, Letters, Underscore and dollar sign are allowed but not the Numbers at the first of vars.
+Only Numbers, Letters, Underscore, and dollar signs are allowed but not the Numbers at the first of vars.
 
-The names should be descriptive so we can undresrtand them better.
+The names should be descriptive so we can understand them better.
 
 Value
 
@@ -115,7 +115,7 @@ x = y = 25 - 10 - 5;
 
 ### 3. Values and Variables:
 
-When creating variable names, you can only use numbers, letters, underscores, and dollar signs. However, you cannot use numbers at the beginning of variable names. It's important to be descriptive when naming variables, so that others can easily understand what they represent.
+When creating variable names, you can only use numbers, letters, underscores, and dollar signs. However, you cannot use numbers at the beginning of variable names. It's important to be descriptive when naming variables so that others can easily understand what they represent.
 
 Values can have different types depending on the data that they are meant to hold. There are primitive values and object values. The primitive values include number, string, boolean, undefined, null, symbol, and bigint.
 
@@ -123,7 +123,7 @@ Number refers to the floating-point type, while strings are simply a sequence of
 
 Dynamic typing is when the value, not the variable, has a type. JavaScript executes code from top to bottom.
 
-When declaring an empty variable, both the type and the value are undefined. The type of null is object, but it should be null.
+When declaring an empty variable, both the type and the value are undefined. The type of null is an object, but it should be null.
 
 ### let, const, var
 
@@ -149,13 +149,13 @@ The easiest way to build strings is by using Template Literals. You can join str
 
 ### If-Else Statement:
 
-The If-Else statement checks whether one of them is true or not. It is called the If-Else control structure and does not execute in a linear way. It is not allowed to use outside of the block, and it only runs inside the blocks.
+The If-Else statement checks whether one of them is true or not. It is called the If-Else control structure and does not execute in a linear way. It is not allowed to be used outside of the block, and it only runs inside the blocks.
 
 ### Type Conversion and Coercion:
 
 Conversion is a common operation in JavaScript. Type Conversion is done manually and explicitly. Type Coercion is done implicitly and automatically by JavaScript.
 
-When input comes in string format, Number() converts them to number type. However, something that doesn't work is NaN, which means still a number but it fails to give a new number. String is spelled with a capital S (or N for Number). JS can convert to number, string, or boolean. Boolean works in a special way.
+When input comes in string format, Number() converts them to number type. However, something that doesn't work is NaN, which means still a number but it fails to give a new number. The string is spelled with a capital S (or N for Number). JS can convert to a number, string, or boolean. Boolean works in a special way.
 
 Coercion Type happens when dealing with two different types, and JavaScript will convert them to match them.
 
@@ -165,7 +165,7 @@ Falsy values are the values that become false when converted to a boolean. Some 
 
 ### Equality Operators:
 
-The comparison operators are similar to before, but now equality operators agree if it's 18. If it has only one line, we don't need to have curly braces. They always return a true or false. There are strict (===) and loose equality operators (==); it is always better to use the strict version.
+The comparison operators are similar to before, but now equality operators agree if it's 18. If it has only one line, we don't need to have curly braces. They always return true or false. There are strict (===) and loose equality operators (==); it is always better to use the strict version.
 
 Boolean Logic:
 
@@ -186,3 +186,19 @@ An expression is a piece of code that produces a value. For instance, "3 + 4" is
 ### The Condition Ternary Operator:
 
 It is used to assign one of two values to a variable depending on a condition. Ternary can be used inside the literal, and all the code is in one line. The operator always produces a value.
+
+### JavaScript Releases ES5 ES6
+
+We had ECMA JS 5 and ECMA JS 6 in 2015 which have huge changes and started the yearly releases from that time. 
+
+
+### Strict Mode 
+
+1. Forbid us to do certain things
+2. It creates visible errors and the developer console where js would fail silently
+
+
+
+
+
+
