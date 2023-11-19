@@ -35,7 +35,7 @@ The names should be descriptive so we can understand them better.
 
 Value
 
-values can have dii types. depending on the type of data wwe are want them to hold.
+values can have dii types. depending on the type of data we are wanted them to hold.
 
 Object and Primitive value
 
